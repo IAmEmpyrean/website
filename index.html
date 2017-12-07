@@ -1,29 +1,59 @@
-<h1>Hello World!<h1>
+<!DOCTYPE html>
 <html>
   <head>
     <title>Main</title>
     <style>
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    }
+    
+    li {
+    float: left;
+    }
+    
+    
+    li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+    li a:hover {
+    background-color: #111;
+    }
       .wrapper{
         display:grid;
-        grid-template-columns: 1fr 1fr;
+        
+        grid-template-columns: 1fr 2fr;
         grid-column-gap:1em;
         grid-row-gap:1em;
       .wrapper > div{
-        background:#ccc;
+        background: #ccc;
         padding:1em;
       }
     </style>
   </head>
   <body>
     <div class="wrapper">
+    <ul>
+    
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="WebContent/test.html">test</a></li>
+    </ul>
       <div>
-        <h1>Andrew Obrzut<h1>
+        <h1>Andrew Obrzut</h1>
+        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIAAgDGAAAAAQAAAAAAAAuGAAAAJDQyOTliMmVlLTdjMzEtNDM3OC1hNGQ4LWExYTRmNzZlODgyMQ.jpg"
+        width ="200" height="200">
       </div>
       <div>
-        <h1>Andrew Obrzut<h1>
+        <h1>Andrew Obrzut</h1>
       </div>
       <div>
-        <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIAAgDGAAAAAQAAAAAAAAuGAAAAJDQyOTliMmVlLTdjMzEtNDM3OC1hNGQ4LWExYTRmNzZlODgyMQ.jpg">
       </div>
     </div>
   </body>
