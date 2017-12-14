@@ -1,15 +1,20 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="ISO-8859-1">
-<title>test</title>
-<style>
-ul {
+  <head>
+  	<title>Andrew Obrzut</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   	<style>
+   		body {
+    		background-image: url("http://h2.hqtexture.com/101/10032/1458513111-geometric-backgrounds-12.jpg");
+		}
+   	
+    	ul {
     		list-style-type: none;
     		margin: 0;
     		padding: 0;
     		overflow: hidden;
     		background-color: #333;
+    		opacity: .8;
     	}
     
     	li {
@@ -35,16 +40,37 @@ ul {
     	.active {
     		background-color: #4CAF50
     		}
-</style>
-</head>
-<body>
-<ul>   
+    	.wrapper{
+        display:grid;
+        
+        grid-template-columns: 1fr 2fr;
+        grid-column-gap:1em;
+        grid-row-gap:1em;
+        .wrapper > div{
+        
+        	background: #ccc;
+        	padding:1em;
+        	
+      	}
+    </style>
+  </head>
+  <body>
+  <ul>   
     <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="test.html">test</a></li>
-    <li><a href="test.html">test</a></li>
-    <li><a href="test.html">test</a></li>
-    <li><a href="test.html">test</a></li>
-    <li><a href="test.html">test</a></li>
+    <li><a href="test.html">About</a></li>
+    <li><a href="test.html">Projects</a></li>
+    <li><a href="test.html">Interests</a></li>
+    <li><a href="test.html">Expereiance</a></li>
+    <li style="float:right"><a href="contact.html">Contact</a></li>
     </ul>
-</body>
-</html>
+    <div class="wrapper">
+      <div>
+        <h1 style="color:White;">Under Construction</h1>
+      </div>
+      <div>
+      </div>
+      <div>
+      </div>
+    </div>
+  </body>
+  </html>
