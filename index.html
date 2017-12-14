@@ -1,58 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Main</title>
-    <style>
-    ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    }
+  	<title>Andrew Obrzut</title>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   	<style>
+   		body {
+    		background-image: url("http://h2.hqtexture.com/101/10032/1458513111-geometric-backgrounds-12.jpg");
+		}
+   	
+    	ul {
+    		list-style-type: none;
+    		margin: 0;
+    		padding: 0;
+    		overflow: hidden;
+    		background-color: #333;
+    		opacity: .5;
+    	}
+    	ul {
+    		position: fixed;
+    		top: 0;
+    		width: 100%;
+		}
     
-    li {
-    float: left;
-    }
+    	li {
+    		float: left;
+    		border-right: 1px solid #bbb;
+    	}
+    	
+    	li:last-child{
+    		border-right: none;
+    		}
     
     
-    li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    }
-    li a:hover {
-    background-color: #111;
-    }
-      .wrapper{
+    	li a {
+    		display: block;
+    		color: white;
+    		text-align: center;
+    		padding: 14px 16px;
+    		text-decoration: none;
+    	}
+    	li a:hover {
+    		background-color: #666;
+    	}
+    	.active {
+    		background-color: #4CAF50
+    		}
+    	.wrapper{
         display:grid;
         
         grid-template-columns: 1fr 2fr;
         grid-column-gap:1em;
         grid-row-gap:1em;
-      .wrapper > div{
-        background: #ccc;
-        padding:1em;
-      }
+        .wrapper > div{
+        
+        	background: #ccc;
+        	padding:1em;
+        	
+      	}
     </style>
   </head>
   <body>
-    <div class="wrapper">
-    <ul>
-    
+  <ul>   
     <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="WebContent/test.html">test</a></li>
+    <li><a href="test.html">test</a></li>
+    <li><a href="test.html">test</a></li>
+    <li><a href="test.html">test</a></li>
+    <li><a href="test.html">test</a></li>
+    <li style="float:right"><a class="active" href="contact.html">Contact</a></li>
     </ul>
+    <div class="wrapper">
       <div>
-        <h1>Andrew Obrzut</h1>
+        <h1 style="color:White;">Andrew Obrzut</h1>
         <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIAAgDGAAAAAQAAAAAAAAuGAAAAJDQyOTliMmVlLTdjMzEtNDM3OC1hNGQ4LWExYTRmNzZlODgyMQ.jpg"
         width ="200" height="200">
       </div>
       <div>
-        <h1>Andrew Obrzut</h1>
+        <h1 style="color:White;">Andrew Obrzut</h1>
       </div>
+      <p style="color:White;">random shit</p>
+      <a href="https://github.com/IAmEmpyrean">
+      <i class="fa fa-github" style="font-size:60px;color:lightblue;"></i></a>
       <div>
       </div>
     </div>
